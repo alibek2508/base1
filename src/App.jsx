@@ -1,11 +1,10 @@
 import './App.css';
-import { UserProfile } from './components/UserProfile';
+import { Calc } from './components/Calc';
+
 function App() {
 	return (
-		<div>
-			<UserProfile name="Борис" age={30} />
-			<UserProfile name="Елена" age={25} />
-			<UserProfile name="Максим" age={35} />
+		<div style={{ border: '1px solid black', padding: '20px' }}>
+			<Calc />
 		</div>
 	);
 }
